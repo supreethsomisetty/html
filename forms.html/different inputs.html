@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>different inputs</title>
+</head>
+<body>
+    <form action="main.py">
+        <!--radio buttons-->
+       
+
+        <div>
+            <label for="fn">First Name</label>
+            <input type="text" id="fn" name="fname" placeholder="Enter First Name"><br>
+            <label for="ln">Last Name</label>
+            <input type="text" id="ln" name="lname" placeholder="Enter Last Name">
+        </div><br>
+        <div+>
+            <label for="em">Email:</label>
+            <input type="email" name="ema" id="em">
+        </div><br>
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob">
+        </div><br>
+        <div>
+            <label for="Mobno">Mobile </label>
+            <input type="number" name="mobno" id="mobno">
+        </div><br>
+        <div>
+            <label for="clr">Choose a Colour</label>
+            <input type="color" id="clr" name="clr">
+            <input type="color" id="clr" name="clr">
+        </div><br>
+        <div>
+            <label for="slot">prefer a time slot</label>
+            <input type="datetime-local" name="slot" id="slot">
+        </div><br>
+        <div>
+            <label for="pic">Upload Profile Picture</label>
+            <input type="file" name="pic" id="pic">
+        </div><br>
+        <div>
+            <label for="m">Month</label>
+            <input type="month" name="m" id="m">
+        </div><br>
+        <div>
+            <label for="w">Week</label>
+            <input type="week" name="w" id="w">
+        </div><br>
+
+        <div>
+            <label for="t">Time:</label>
+            <input type="time" id="t" name="time"
+        </div>
+        <div>
+            <p>Select Gender:</p>
+            <input type="radio" name="gen" id="m">
+            <label for="m">Male</label><br>
+            <input type="radio" name="gen" id="f">
+            <label for="f">Female</label> <br>   
+        </div>
+        <!--creacte a choice of three radio button to choose mpc,bipc,mec-->
+        <div>
+            <p>Select Group:</p>
+            <input type="radio" name="group" id="mpc">
+            <label for="mpc">MPC</label><br>
+            <input type="radio" name="group" id="bipc">
+            <label for="bipc">BIPC</label><br>
+            <input type="radio" name="group" id="mec">
+            <label for="mec">MEC</label><br>
+        </div>
+        <!--checkboxes-->
+        <div>
+            <p>Choose Languages Known: </p>
+            <input type="checkbox" name="lang" id="tel">
+            <label for="tel">Telugu</label><br>
+            <input type="checkbox" name="lang" id="hin">
+            <label for="hin">Hindi</label><br>
+            <input type="checkbox" name="lang" id="tamil">
+            <label for="tamil">Tamil</label><br>
+            <input type="checkbox" name="lang" id="Eng">
+            <label for="Eng">English</label><br>
+        </div><br>
+        <div>
+            <label for="url">Search Url</label>
+            <input type="url" name="url" id="url">
+        </div>
+        <button>Submit</button>
+        <button>reset</button>
+        <input type="submit" value="submit">
+        <input type="button" value="reset">
+    </form>
+</body></html>
